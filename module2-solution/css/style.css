@@ -5,6 +5,7 @@ h1{
     margin-bottom: 15px;
     text-align: center;
 }
+p{margin: 0;}
 #p1{
     background-color: blue;
 }
@@ -18,13 +19,14 @@ h1{
     border: 1px solid black;
     width: 25%;
     height: 18%;
-    margin-left: auto;
-    margin-right: 10px;
+    /* margin-left: auto; */
+    margin-bottom: 10px;
     font-family: Helvetica;
     color: white;
     float: right;
 }
 p#content{
+    margin: 10px;
     clear: both;
     padding-left: 10px;
 }
